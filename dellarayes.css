@@ -1,0 +1,226 @@
+html , body {
+    margin: 0px;
+}
+
+
+header {
+    height: 60px;
+    background-color:rgb(143, 188, 143);
+    color: white;
+    z-index: 10;
+    position: fixed;
+    top: 0px;
+    /* width: 1333px; */
+    width: 100%;
+}
+
+.header-left {
+    font-size: 10px;
+    float: left;
+    padding: 5px;
+}
+
+.header-right {
+    float: right;
+    transition: all 0.5s;
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+    line-height: 60px;
+    display: block;
+}
+
+li {
+    list-style: none;
+}
+.top-wrapper {
+    background-image: url("background.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    color:black;
+}
+
+.top-wrapper h1 {
+    padding: 3px;
+}
+
+.main-intro {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    top: 0px;
+    background-color:palegoldenrod;
+    
+}
+
+.main-intro h2 {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    border: 2px dotted brown;
+}
+
+.intro-image {
+    float: left;
+    padding: 10px;
+}
+
+.intro-image img {
+    height: 271,375px;
+    width: 188px;
+    border-radius: 100px;
+}
+
+.intro-text {
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.intro-text span {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+.experience-intro {
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 500px;
+    background-color:palegoldenrod;
+}
+
+.experience-intro h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.experience-intro p {
+    border: 1px solid darkolivegreen;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 3px;
+}
+
+.exp {
+    float: right;
+    border-left: 1px solid brown;
+    padding-left: 20px;
+}
+
+.edu {
+    float: left;
+}
+
+.edu h2 {
+    text-align: right;
+}
+
+.exp span {
+    text-decoration: underline;
+}
+
+.other-intro {
+    height: 300px;
+    padding-right: 80px;
+    padding-left: 80px;
+    background-color:palegoldenrod;
+}
+
+.other-intro p {
+    padding-top: 0px;
+}
+
+.other-intro h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0px;
+    border-top: 2px dotted green;
+    padding-top: 20px;
+}
+
+.other-intro img {
+    width: 100px;
+}
+
+.hobbies {
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hobby p {
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    color:black;
+}
+
+.context p {
+   font-family: monospace;
+    color: brown;
+}
+
+.contact-form {
+    text-align: center;
+    background-color:khaki;
+    padding-bottom: 40px;
+}
+
+.contact-form h3 {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+.contact-form p {
+    margin-bottom: 0px;
+}
+
+.contact-form input {
+    width: 400px;
+    height: 30px;
+    border: 1px solid darkgreen;
+    border-radius: 8px;
+    background-color:lemonchiffon;
+}
+
+.contact-form textarea {
+    width: 400px;
+    height: 80px;
+    border: 1px solid darkgreen;
+    background-color: lemonchiffon;
+    border-radius: 8px;
+}
+
+.contact-submit {
+    background-color:lightgreen;
+    cursor:pointer;
+}
+
+footer {
+    height: 50px;
+    background-color: rgb(143, 188, 143);
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 0px;
+    padding: 15px;
+}
